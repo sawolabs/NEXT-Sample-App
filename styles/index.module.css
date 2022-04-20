@@ -15,15 +15,6 @@
     align-items: center;
     justify-content: space-between;
   }
-  /*
-  .navbar_nav {
-    display: flex;
-    flex-direction: column;
-    padding-left: 0;
-    margin-bottom: 0;
-    list-style: none;
-}
-  */
   
   .nav {
     padding-left: 2rem !important;
@@ -90,7 +81,6 @@
     margin-left: 3rem;
     margin-right: 3rem;
     height: 300px;
-    display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: row;
