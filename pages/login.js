@@ -2,7 +2,7 @@ import Head from "next/head";
 import React, { useEffect, useState } from "react";
 import Sawo from "sawo";
 import lstyles from "../styles/login.module.css";
-function login() {
+function Login() {
   const [isUserLoggedIn, setIsUserLoggedIn] = useState(false);
   const [payload, setPayload] = useState({});
 
@@ -44,4 +44,4 @@ function login() {
   );
 }
 
-export default login;
+export default Login;
